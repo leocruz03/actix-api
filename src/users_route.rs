@@ -19,7 +19,7 @@ pub async fn get_users() -> impl Responder {
     
     users.push(
         User {
-            id: "01".to_string(),
+            id: "02".to_string(),
             name: "john".to_string(),
             username: "doejohn".to_string(),
             email: "johndoe@email.com".to_string(),
@@ -30,7 +30,7 @@ pub async fn get_users() -> impl Responder {
 
     users.push(
         User {
-            id: "01".to_string(),
+            id: "03".to_string(),
             name: "leonardo".to_string(),
             username: "delacruz".to_string(),
             email: "email@email.com".to_string(),
